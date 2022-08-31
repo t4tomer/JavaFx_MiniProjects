@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam2021a91.Exam2021a91">
+   <children>
+      <Button fx:id="but1" layoutX="63.0" layoutY="30.0" mnemonicParsing="false" onAction="#but1Pressed" text="Button" />
+      <Button fx:id="but2" layoutX="130.0" layoutY="30.0" mnemonicParsing="false" onAction="#but2Pressed" text="Button" />
+      <Button fx:id="but3" layoutX="199.0" layoutY="30.0" mnemonicParsing="false" onAction="#but3Pressed" text="Button" />
+      <Button fx:id="but4" layoutX="274.0" layoutY="30.0" mnemonicParsing="false" onAction="#but4Pressed" text="Button" />
+      <Button fx:id="but5" layoutX="347.0" layoutY="30.0" mnemonicParsing="false" onAction="#but5Pressed" text="Button" />
+      <Button fx:id="but6" layoutX="428.0" layoutY="30.0" mnemonicParsing="false" onAction="#but6Pressed" text="Button" />
+      <Button fx:id="but7" layoutX="518.0" layoutY="30.0" mnemonicParsing="false" onAction="#but7Pressed" text="Button" />
+      <Button fx:id="END_butt" layoutX="414.0" layoutY="150.0" mnemonicParsing="false" onAction="#EndPressed" text="END" />
+      <TextField fx:id="TextField" layoutX="102.0" layoutY="150.0" prefHeight="25.0" prefWidth="298.0" />
+      <TextField fx:id="ScoreField" layoutX="102.0" layoutY="84.0" prefHeight="25.0" prefWidth="298.0" />
+   </children>
+</AnchorPane>

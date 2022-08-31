@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam2022a71.Exam2022a71">
+   <children>
+      <Button fx:id="StopButt" layoutX="218.0" layoutY="318.0" mnemonicParsing="false" onAction="#StopPressed" text="Stop" />
+      <ImageView fx:id="myImageView" fitHeight="187.0" fitWidth="248.0" layoutX="159.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="StartButt" layoutX="105.0" layoutY="318.0" mnemonicParsing="false" onAction="#StartPressed" text="Start" />
+      <Button fx:id="CheckButt" layoutX="339.0" layoutY="318.0" mnemonicParsing="false" onAction="#CheckPressed" text="Check" />
+      <TextField fx:id="TextField1" layoutX="185.0" layoutY="271.0" />
+   </children>
+</AnchorPane>

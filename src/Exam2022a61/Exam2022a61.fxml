@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam2022a61.Exam2022a61">
+   <children>
+      <Canvas fx:id="Canvas1" height="354.0" layoutX="-4.0" layoutY="5.0" width="600.0" />
+      <Button fx:id="StartButt" layoutX="274.0" layoutY="374.0" mnemonicParsing="false" onAction="#StartPressed" text="Button" />
+   </children>
+</AnchorPane>
