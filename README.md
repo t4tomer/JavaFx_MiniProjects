@@ -16,3 +16,9 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## How to run JavaFx files 
+1) first create the fxml file in SceneBuilder and save it in a a folder 
+2) name the fxml file as the java file 
+3) go to launch.json file and uncomment the needed section
+4) press F5 in the file of the java file inorder to run the java fx file/

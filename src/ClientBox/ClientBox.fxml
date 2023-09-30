@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="Msg2Client" layoutX="73.0" layoutY="93.0" />
+      <Text layoutX="269.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Client Box" wrappingWidth="124.80859375" />
+      <Text layoutX="79.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Write message to Server" wrappingWidth="208.13671875" />
+      <TextField fx:id="Test" layoutX="73.0" layoutY="181.0" />
+      <Text layoutX="81.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test" wrappingWidth="132.63671875" />
+   </children>
+</AnchorPane>
