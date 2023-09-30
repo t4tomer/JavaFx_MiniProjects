@@ -33,27 +33,27 @@
             "request": "launch",
             "mainClass": "Exam2021a74.Main",
             "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
-        } 
+        }, 
  */
 
         //! uncomment to run Client Box 
-        {
+       {
             "type": "java",
             "name": "Launch App",
             "request": "launch",
-            "mainClass": "ClientBox.Main",
+            "mainClass": "Client.Main",
             "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
         },
 
         //! uncomment to run PhoneBook
-        {
+/*         {
             "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "PhoneBook.Main",
             "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
         } 
-
+ */
 
          //! uncomment to run SimpleSumCalc
 /*         {
