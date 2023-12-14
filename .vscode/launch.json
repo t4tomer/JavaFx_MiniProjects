@@ -6,6 +6,16 @@
     "version": "0.2.0",
     "configurations": [
 
+       //! uncomment to run MemoryQuize
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "MemoryQuize.Main",
+            "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
+        }
+
+
         //! uncomment to run Exam2021a91
 
 /*         {
@@ -37,14 +47,14 @@
  */
 
         //! uncomment to run Client Box 
-       {
+/*        {
             "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "Client.Main",
             "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
         },
-
+ */
         //! uncomment to run PhoneBook
 /*         {
             "type": "java",
@@ -52,8 +62,21 @@
             "request": "launch",
             "mainClass": "PhoneBook.Main",
             "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
-        } 
+        },
  */
+
+/*         //!uncomment to run Quize
+       {
+              "type": "java",
+              "name": "Launch App",
+              "request": "launch",
+              "mainClass": "Quize.Main",
+              "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
+       } 
+ */  
+
+
+
 
          //! uncomment to run SimpleSumCalc
 /*         {

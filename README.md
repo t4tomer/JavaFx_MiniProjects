@@ -21,4 +21,4 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 1) first create the fxml file in SceneBuilder and save it in a a folder 
 2) name the fxml file as the java file 
 3) go to launch.json file and uncomment the needed section
-4) press F5 in the file of the java file inorder to run the java fx file/
+4) press F5 in the file of the java file in order to run the java fx file
