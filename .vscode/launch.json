@@ -5,33 +5,42 @@
     // to run program uncomment the the section, and press F5 in the approite file 
     "version": "0.2.0",
     "configurations": [
-
-       //! uncomment to run ColorChooser
+       //! Examples_from_book -uncomment to run VideoPlayer
         {
               "type": "java",
               "name": "Launch App",
               "request": "launch",
-              "mainClass": "ColorChooser.Main",
+              "mainClass": "Examples_from_book.VideoPlayer.Main",
               "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
        },
 
-   
-   
-       // ! uncomment to run Painter
-/*        {
+
+       //! Examples_from_book -uncomment to run ColorChooser
+/*         {
               "type": "java",
               "name": "Launch App",
               "request": "launch",
-              "mainClass": "Painter.Main",
+              "mainClass": "Examples_from_book.ColorChooser.Main",
               "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
        },
  */
-       // ! uncomment to run TipCalculator
+   
+   
+       //! Examples_from_book -uncomment to run Painter
 /*        {
               "type": "java",
               "name": "Launch App",
               "request": "launch",
-              "mainClass": "TipCalculator.Main",
+              "mainClass": "Examples_from_book.Painter.Main",
+              "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
+       },
+ */
+       //! Examples_from_book -uncomment to run TipCalculator
+/*        {
+              "type": "java",
+              "name": "Launch App",
+              "request": "launch",
+              "mainClass": "Examples_from_book.TipCalculator.Main",
               "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
        }
  */
