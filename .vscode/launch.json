@@ -5,15 +5,18 @@
     // to run program uncomment the the section, and press F5 in the approite file 
     "version": "0.2.0",
     "configurations": [
+
+       /*
        //! Examples_from_book -uncomment to run VideoPlayer
         {
               "type": "java",
               "name": "Launch App",
               "request": "launch",
               "mainClass": "Examples_from_book.VideoPlayer.Main",
-              "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
+              "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-24/lib\" --add-modules javafx.controls,javafx.fxml"
        },
 
+       */
 
        //! Examples_from_book -uncomment to run ColorChooser
 /*         {
@@ -66,23 +69,24 @@
  */
 
         //! uncomment to run Exam2021a91
-/*         {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "Exam2021a91.Main",
-            "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
-        }
+     /*    {
+              "type": "java",
+              "name": "Main",
+              "request": "launch",
+              "mainClass": "Exam2021a91.Main",
+              "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-24/lib\" --add-modules javafx.controls,javafx.fxml"
+  
+       }
  */
         //! uncomment to run Exam2021a74
-/*        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "Exam2021a74.Main",
-            "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
-        }, 
- */
+/*         {
+              "type": "java",
+              "name": "Main",
+              "request": "launch",
+              "mainClass": "Exam2021a74.Main",
+              "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-24/lib\" --add-modules javafx.controls,javafx.fxml"
+  
+       } */
 
         //! uncomment to run Client Box 
 /*        {
@@ -93,25 +97,26 @@
             "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
         },
  */
-        //! uncomment to run PhoneBook
-/*         {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "PhoneBook.Main",
-            "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
-        },
- */
-
-/*         //!uncomment to run Quize
-       {
+       
+ //! uncomment to run PhoneBook
+         {
               "type": "java",
-              "name": "Launch App",
+              "name": "Main",
+              "request": "launch",
+              "mainClass": "PhoneBook.Main",
+              "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-24/lib\" --add-modules javafx.controls,javafx.fxml"
+        }, 
+ 
+
+         //!uncomment to run Quize
+/*        {
+              "type": "java",
+              "name": "Main",
               "request": "launch",
               "mainClass": "Quize.Main",
-              "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
-       } 
- */  
+              "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-24/lib\" --add-modules javafx.controls,javafx.fxml"
+       }  */
+  
 
 
 

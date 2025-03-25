@@ -1,32 +1,25 @@
 package Quize;
 
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
+public class Main extends Application {
+	public void start(Stage stage) throws Exception {
+		Parent root = FXMLLoader.load(getClass().getResource("quize_controller1.fxml"));
 
-import javafx.application.Application; 
-import javafx.fxml.FXMLLoader; 
-import javafx.scene.Parent; 
-import javafx.scene.Scene; 
-import javafx.stage.Stage; 
+		Scene scene = new Scene(root);
+		stage.setTitle("quize");
+		stage.setScene(scene);
+		stage.show();
+	}
 
-public class Main extends Application
-{ 
-  public void start(Stage stage) throws Exception
-	 { 
-			 Parent root = FXMLLoader.load(getClass().getResource("quize_controller1.fxml")); 
+	public static void main(String[] args) {
 
-			 Scene scene = new Scene(root);			 			 
-			 stage.setTitle("quize"); 
-			 stage.setScene(scene); 
-			 stage.show(); 
-	 } 
-  public static void main(String[] args)
-	 	{ 
+		launch(args);
 
-      
-      launch(args); 
-		 	
-		 	
-		 	
-	 	} 
+	}
 
 }
